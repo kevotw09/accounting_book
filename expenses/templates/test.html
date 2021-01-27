@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<script>
+    const data = '{{qs_json}}'
+    console.elog(data)
+</script>
+
+
+<script src="{% static 'js/searchExpense.js' %}"></script>
+{% endblock %}
